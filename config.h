@@ -9,6 +9,7 @@ static char font[] = "DejaVu Sans Mono:pixelsize=15:antialias=false:autohint=fal
 static int borderpx = 0;
 static char shell[] = "/bin/mksh";
 static char *utmp = NULL;
+static char stty_args[] = "stty raw -echo -iexten echonl";
 
 /* identification sequence returned in DA and DECID */
 static char vtiden[] = "\033[?6c";
